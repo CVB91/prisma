@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
-const root = resolve(__dirname, '/src')
+const root = resolve(__dirname, 'src')
 const outDir = resolve(__dirname, 'dist')
 
 export default defineConfig({
@@ -14,7 +14,7 @@ export default defineConfig({
         main: resolve(root, 'index.html'),
         about: resolve(root, 'About', 'about.html'),
         gallery: resolve(root, 'gallery', 'gallery.html'),
-        contact: resolve(root, 'Contact', 'collections.html'),
+        contact: resolve(root, 'Contact', 'contact.html'),
       },
     },
   },

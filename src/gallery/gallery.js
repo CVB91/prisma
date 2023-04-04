@@ -4,9 +4,13 @@ const gridRows = [...document.querySelectorAll('.row')]
 const images = [...document.querySelectorAll('.img')]
 const heading = document.querySelector('.heading')
 
+console.log(images)
+
+
 images.forEach((img, idx) => {
-  img.style.backgroundImage = `url(./public/${idx + 1}.jpg)`
+  img.style.backgroundImage = `url(/${idx + 1}.jpg)`
 })
+ 
 
 gridItems.forEach((item, idx) => {
   item.addEventListener('click', (e) => {

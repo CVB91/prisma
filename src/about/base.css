@@ -21,7 +21,7 @@ body {
 	--cursor-stroke-width: 1px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-family: halyard-display, sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .noscroll main {
@@ -66,9 +66,12 @@ body {
 }
 
 a {
-	text-decoration: underline;
-	color: var(--color-link);
+	text-decoration: none;
+	color: white;
 	outline: none;
+	position: fixed;
+	right:5%;
+	top:2%;
 }
 
 a:hover,

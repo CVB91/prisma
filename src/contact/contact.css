@@ -21,6 +21,7 @@ body {
   color: white;
   position: fixed;
   top: 0rem;
+  right:2rem;
   margin-top: 2rem;
   cursor: pointer;
 }
